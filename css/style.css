@@ -70,7 +70,7 @@ body {
   width:var(--width);
   padding:var(--padding);
   margin-left:var(--margin-left);
-  background-color: var(--color-clima);
+  background-color:var(--color-clima);
   opacity:0.7;
 }
 .dut2{
