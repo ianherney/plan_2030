@@ -71,7 +71,7 @@ body {
   padding:var(--padding);
   margin-left:var(--margin-left);
   background-color: var(--color-clima));
-  opacity:0.7;
+  opacity:0.6;
 }
 .dut2{
   border-radius: 50px;
@@ -79,8 +79,8 @@ body {
   width:var(--width);
   padding:var(--padding);
   margin-left:var(--margin-left);
-  background-color: var(--color-economia) ;
-  opacity:0.7;
+  background-color: var(--color-economia);
+  opacity:0.6;
 }
 .dut3{
   border-radius: 50px;
