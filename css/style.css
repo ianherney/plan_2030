@@ -1,0 +1,492 @@
+/* variables */
+
+:root{
+--height:30px;
+--width:30px;
+--padding:15px;
+--margin-left:20px;
+--color-comunidad: rgb();
+/* --border: 1px solid grey; */
+--color-clima: rgb(0 130 170);
+--color-economia: rgb(0 100 100);
+--color-ambiente: rgb(0 100 0);
+--color-comunidades: rgb(450 100 0);
+--color-comunicaciones: rgb(300 0 0);
+}
+
+/* variables */
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: helvetica;
+}
+
+body {
+ background-image:url("../img/principal/Fondo.png");
+ background-size: cover;
+}
+
+
+/* ------------------------------------- Principal */
+.Father_section {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_left{
+  border:var(--border);
+  /* margin-top:15px; */
+  padding:15px;
+  height: 275px;
+  width:45%;
+  text-align: left;
+  position:relative;
+  display:inline-block;
+  }
+.container_title{
+  display:flex;
+  align-items:center;
+  border:var(--border);
+  }
+.title_1{
+  font-size: 55px;
+  font-family: helvetica;
+  text-align: justify;
+  letter-spacing: 2px;
+  border:var(--border);
+}
+.duts {
+  /* background-color:red; */
+  padding:0 30px 0 15px;
+  display:flex;
+  margin-left:auto;
+}
+.dut1{
+  border-radius: 50px;
+  height:var(--height);
+  width:var(--width);
+  padding:var(--padding);
+  margin-left:var(--margin-left);
+  background-color: var(--color-clima));
+  opacity:0.7;
+}
+.dut2{
+  border-radius: 50px;
+  height:var(--height);
+  width:var(--width);
+  padding:var(--padding);
+  margin-left:var(--margin-left);
+  background-color: var(--color-economia) ;
+  opacity:0.7;
+}
+.dut3{
+  border-radius: 50px;
+  height:var(--height);
+  width:var(--width);
+  padding:var(--padding);
+  margin-left:var(--margin-left);
+  background-color: var(--color-ambiente);
+  opacity:0.6;
+}
+.dut4{
+  border-radius: 50px;
+  height:var(--height);
+  width:var(--width);
+  padding:var(--padding);
+  margin-left:var(--margin-left);
+  background-color: var(--color-comunidades);
+  opacity:0.6;
+}
+.sosteniblidad{
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  letter-spacing: 10px;
+}
+.line1{
+ border:1px solid var(--color-clima);
+ width:25%;
+ margin-left:-4px;
+ display:inline-block;
+ opacity:0.7;
+}
+.line2{
+ border:1px solid var(--color-economia);
+ width:25%;
+ margin-left:-4px;
+ display:inline-block;
+ opacity:0.7;
+}
+.line3{
+ border:1px solid var(--color-ambiente);
+ width:24%;
+ margin-left:-4px;
+ display:inline-block;
+ opacity:0.7;
+}
+.line4{
+ border:1px solid var(--color-comunidades);
+ width:24%;
+ margin-left:-4px;
+ display:inline-block;
+ opacity:0.7;
+}
+
+
+
+.p_sos{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.section_rigth {
+  padding: 15px;
+  height: 275px;
+  width:35%;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  border: var(--border);
+}
+.ods_L1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ods{
+  width:55px;
+}
+.box{
+  margin: 5px;
+}
+.estrategia_L1{
+  display: flex;
+  align-items: center;
+  border: var(--border);
+  padding: 0 300px 0 300px;
+  justify-content: space-around;
+}
+.estrategia{
+  width:100px;
+  text-align:center;
+  margin:0;
+}
+
+.e_clima{
+  color: var(--color-clima);
+  opacity:0.7
+}
+.e_economia{
+  color: var(--color-clima);
+  opacity:0.7
+}
+.e_ambiente{
+  color: var(--color-ambiente);
+  opacity:0.7
+}
+.e_comunidades{
+  color: var(--color-comunidades);
+  opacity:0.7;
+}
+
+.e_comunicaciones{
+  Text-align:center;
+  margin:0;
+  color: var(--color-comunicaciones);
+  opacity:0.7
+}
+
+/* ------------------------------------- clima */
+
+.resumen_clima{
+font-size:25px;
+}
+
+/* -------------------------estrategia clima */
+
+.e_brand_clima{
+  text-align:end;
+  font-size: 32px;
+  margin: 0;
+  color: var(--color-clima);
+}
+
+.e_brand_comunidad{
+  text-align:end;
+  font-size: 25px;
+  margin: 0;
+  color: var(--color-comunidades);
+  opacity:0.7
+
+}
+
+.log_comunidad{
+  padding:0 5px 0 5px;
+  margin:0;
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+
+.name_holcim{
+  font-size:30px;
+  text-align: left;
+  margin:0;
+  padding-top:7px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+.sostenibilidad_name{
+  position:absolute;
+  left: 0px;
+  top: 30px;
+  z-index: 2;
+}
+
+.name_S_sos {
+  font-size:35px;
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  display:inline;
+}
+
+.name_sos {
+  font-size:32px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  margin:0;
+  display:inline;
+}
+
+
+.nav_log{
+  display:flex;
+  justify-content: space-around;
+}
+
+.img_clima{
+  display:flex;
+  width:90px;
+}
+
+.img_estrategia{
+  display:flex;
+  width:250px;
+  margin-top:20px;
+  padding:0;
+}
+
+.politicas{
+  display:flex;
+  padding:0;
+}
+
+.est_clima{
+  margin:0;
+  }
+
+.est_clima1{
+  display:flex;
+  width:90%;
+  height: 68px;
+  margin:auto;
+}
+
+#data_estrategia_1,
+#data_estrategia_2,
+#data_estrategia_3,
+#data_est_com_1,
+#data_est_com_2,
+#data_est_com_3,
+#data_est_com_4,
+#data_est_com_5
+  {
+  display:none;
+  }
+
+#c_oculto {
+  width:100%;
+  padding:0;
+}
+
+.descrpcion_clima{
+  display:flex;
+  font-size:15px;
+  padding:0 0 0 30px;
+}
+
+.log_clima{
+  padding:0 5px 0 5px;
+  margin:0;
+  display:flex;
+  justify-content: center;
+}
+
+.icono_co2{
+  width:170px;
+  height: 80px;
+  padding:0;
+  margin:0;
+}
+
+.icono_objetivos{
+  padding: 0;
+  margin-top: 30px;
+  width: 190px;
+  height: 65px;
+}
+
+.year{
+  padding: 0 16px 0 16px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0 130 170);
+}
+.line_end{
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 15px;
+  justify-content: space-around;
+}
+.line_clima{
+ width:85%;
+ margin-left:10%;
+ display:inline-block;
+ border:1px solid var(--color-clima);
+ opacity:0.7;
+}
+
+.line_com{
+ width:85%;
+ margin-left:10%;
+ display:inline-block;
+ border:1px solid var(--color-comunidades);
+ opacity:0.7;
+}
+
+
+.link_estrategia{
+  padding: 0;
+  margin-top:10px;
+  width: 200px;
+  height: 55px;
+}
+
+.log_data{
+  padding:0 10px 0 10px;
+  margin:0;
+  display:flex;
+  justify-content: center;
+}
+
+.data_objetivos{
+  margin-top:5px;
+  width: 70px;
+}
+.log_est_com{
+  display:flex;
+  width:250px;
+}
+.est_comunidad{
+  display: flex;
+  width: 80%;
+  height: 100px;
+  margin: inherit;
+}
+.ind_edu{
+  z-index: -1;
+  position: absolute;
+}
+.ind_edu2{
+display:flex;
+}
+.ind_img1{
+  width:50%;
+  height: 160px;
+}
+.ind_img2, .ind_img3{
+  display:flex;
+  margin:auto;
+  margin-top:50px;
+}
+.ind_ejes{
+  display:flex;
+  margin:auto;
+}
+.img_ind{
+  margin:auto;
+  width:80%;
+}
+.ind_eje0{
+  margin:auto;
+  width:50%;
+}
+.col_trabajamos{
+  padding:0 10px 0 10px;
+}
+.img_trabajamos{
+  width:250px;
+}
+.img_programas{
+  margin:auto;
+  text-align: center;
+}
+.img_liceo{
+  width:60%;
+  padding:0 0 15px 0;
+}
+.img_ecas{
+  width:35%;
+  padding:10px;
+}
+.img_mingagua{
+  width:60%;
+}
+.img_emprend{
+  width:35%;
+}
+.cont_emprend_2{
+  justify-content: space-around;
+  display: flex;
+  padding: 0 60px 0 60px;
+}
+.cont_voluntariado{
+  padding:0
+}
+.img_emprend_2{
+  width:30%;
+}
+.img_grupos{
+  width:25%;
+}
+.img_voluntariado{
+  width:50%;
+}
+.img_salud{
+  width:15%;
+}
+.text_trabajamos{
+  margin:0;
+}
+.list{
+  color:var(--color-comunidades);
+  font-weight: bold;
+  font-size:12px;
+}
+.none_list{
+  color:var(--color-comunidades);
+  opacity:0.6;
+  list-style: none;
+  font-size:12px;
+}
+
+/*
+.grg{
+  border:1px solid grey;
+} */
